@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/financialanalyst/MLops/genre_classification/mlruns/0/1a7202e7059d41e49e2b394a7e01b0a7/artifacts
+end_time: 1679839738743
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1a7202e7059d41e49e2b394a7e01b0a7
+run_name: lyrical-crane-880
+run_uuid: 1a7202e7059d41e49e2b394a7e01b0a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679839728571
+status: 4
+tags: []
+user_id: financialanalyst

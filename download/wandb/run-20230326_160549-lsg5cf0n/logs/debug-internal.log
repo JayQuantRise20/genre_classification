@@ -1,0 +1,102 @@
+2023-03-26 16:05:49,964 INFO    MainThread:74199 [internal.py:wandb_internal():88] W&B internal server running at pid: 74199, started at: 2023-03-26 16:05:49.964185
+2023-03-26 16:05:49,966 INFO    WriterThread:74199 [datastore.py:open_for_write():77] open: /Users/financialanalyst/MLops/genre_classification/download/wandb/run-20230326_160549-lsg5cf0n/run-lsg5cf0n.wandb
+2023-03-26 16:05:49,966 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: check_version
+2023-03-26 16:05:49,968 DEBUG   SenderThread:74199 [sender.py:send():122] send: header
+2023-03-26 16:05:49,968 DEBUG   SenderThread:74199 [sender.py:send():122] send: request
+2023-03-26 16:05:49,968 DEBUG   SenderThread:74199 [sender.py:send_request():131] send_request: check_version
+2023-03-26 16:05:50,040 DEBUG   SenderThread:74199 [sender.py:send():122] send: run
+2023-03-26 16:05:50,382 INFO    SenderThread:74199 [sender.py:_start_run_threads():596] run started: lsg5cf0n with start time 1679843149
+2023-03-26 16:05:50,382 DEBUG   SenderThread:74199 [sender.py:send():122] send: summary
+2023-03-26 16:05:50,384 INFO    SenderThread:74199 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2023-03-26 16:05:50,385 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: run_start
+2023-03-26 16:05:50,388 DEBUG   HandlerThread:74199 [meta.py:__init__():34] meta init
+2023-03-26 16:05:50,389 DEBUG   HandlerThread:74199 [meta.py:__init__():48] meta init done
+2023-03-26 16:05:50,389 DEBUG   HandlerThread:74199 [meta.py:probe():190] probe
+2023-03-26 16:05:50,392 DEBUG   HandlerThread:74199 [meta.py:_setup_git():180] setup git
+2023-03-26 16:05:50,433 DEBUG   HandlerThread:74199 [meta.py:_setup_git():187] setup git done
+2023-03-26 16:05:50,434 DEBUG   HandlerThread:74199 [meta.py:_save_pip():52] save pip
+2023-03-26 16:05:50,435 DEBUG   HandlerThread:74199 [meta.py:_save_pip():66] save pip done
+2023-03-26 16:05:50,436 DEBUG   HandlerThread:74199 [meta.py:probe():231] probe done
+2023-03-26 16:05:50,460 DEBUG   SenderThread:74199 [sender.py:send():122] send: files
+2023-03-26 16:05:50,461 INFO    SenderThread:74199 [sender.py:_save_file():730] saving file wandb-metadata.json with policy now
+2023-03-26 16:05:50,478 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: status
+2023-03-26 16:05:50,481 DEBUG   SenderThread:74199 [sender.py:send():122] send: request
+2023-03-26 16:05:50,482 DEBUG   SenderThread:74199 [sender.py:send_request():131] send_request: status
+2023-03-26 16:05:51,813 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: log_artifact
+2023-03-26 16:05:51,813 DEBUG   SenderThread:74199 [sender.py:send():122] send: request
+2023-03-26 16:05:51,813 DEBUG   SenderThread:74199 [sender.py:send_request():131] send_request: log_artifact
+2023-03-26 16:05:52,503 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: poll_exit
+2023-03-26 16:05:52,503 DEBUG   SenderThread:74199 [sender.py:send():122] send: telemetry
+2023-03-26 16:05:52,690 DEBUG   SenderThread:74199 [sender.py:send():122] send: exit
+2023-03-26 16:05:52,690 INFO    SenderThread:74199 [sender.py:send_exit():200] handling exit code: 0
+2023-03-26 16:05:52,690 INFO    SenderThread:74199 [sender.py:send_exit():208] send defer
+2023-03-26 16:05:52,691 DEBUG   SenderThread:74199 [sender.py:send():122] send: request
+2023-03-26 16:05:52,691 DEBUG   SenderThread:74199 [sender.py:send_request():131] send_request: poll_exit
+2023-03-26 16:05:52,691 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: defer
+2023-03-26 16:05:52,691 INFO    HandlerThread:74199 [handler.py:handle_request_defer():115] handle defer: 0
+2023-03-26 16:05:52,692 DEBUG   SenderThread:74199 [sender.py:send():122] send: request
+2023-03-26 16:05:52,692 DEBUG   SenderThread:74199 [sender.py:send_request():131] send_request: defer
+2023-03-26 16:05:52,692 INFO    SenderThread:74199 [sender.py:send_request_defer():217] handle sender defer: 0
+2023-03-26 16:05:52,692 INFO    SenderThread:74199 [sender.py:send_request_defer():253] send defer: 1
+2023-03-26 16:05:52,692 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: defer
+2023-03-26 16:05:52,692 INFO    HandlerThread:74199 [handler.py:handle_request_defer():115] handle defer: 1
+2023-03-26 16:05:52,768 DEBUG   SenderThread:74199 [sender.py:send():122] send: request
+2023-03-26 16:05:52,768 DEBUG   SenderThread:74199 [sender.py:send_request():131] send_request: defer
+2023-03-26 16:05:52,769 INFO    SenderThread:74199 [sender.py:send_request_defer():217] handle sender defer: 1
+2023-03-26 16:05:52,769 INFO    SenderThread:74199 [sender.py:send_request_defer():253] send defer: 2
+2023-03-26 16:05:52,769 DEBUG   SenderThread:74199 [sender.py:send():122] send: stats
+2023-03-26 16:05:52,771 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: defer
+2023-03-26 16:05:52,772 INFO    HandlerThread:74199 [handler.py:handle_request_defer():115] handle defer: 2
+2023-03-26 16:05:52,772 DEBUG   SenderThread:74199 [sender.py:send():122] send: request
+2023-03-26 16:05:52,773 DEBUG   SenderThread:74199 [sender.py:send_request():131] send_request: defer
+2023-03-26 16:05:52,773 INFO    SenderThread:74199 [sender.py:send_request_defer():217] handle sender defer: 2
+2023-03-26 16:05:52,773 INFO    SenderThread:74199 [sender.py:send_request_defer():253] send defer: 3
+2023-03-26 16:05:52,775 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: defer
+2023-03-26 16:05:52,775 INFO    HandlerThread:74199 [handler.py:handle_request_defer():115] handle defer: 3
+2023-03-26 16:05:52,775 DEBUG   SenderThread:74199 [sender.py:send():122] send: summary
+2023-03-26 16:05:52,776 INFO    SenderThread:74199 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2023-03-26 16:05:52,777 DEBUG   SenderThread:74199 [sender.py:send():122] send: request
+2023-03-26 16:05:52,777 DEBUG   SenderThread:74199 [sender.py:send_request():131] send_request: defer
+2023-03-26 16:05:52,777 INFO    SenderThread:74199 [sender.py:send_request_defer():217] handle sender defer: 3
+2023-03-26 16:05:52,777 INFO    SenderThread:74199 [sender.py:send_request_defer():253] send defer: 4
+2023-03-26 16:05:52,778 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: defer
+2023-03-26 16:05:52,778 INFO    HandlerThread:74199 [handler.py:handle_request_defer():115] handle defer: 4
+2023-03-26 16:05:52,779 DEBUG   SenderThread:74199 [sender.py:send():122] send: request
+2023-03-26 16:05:52,779 DEBUG   SenderThread:74199 [sender.py:send_request():131] send_request: defer
+2023-03-26 16:05:52,779 INFO    SenderThread:74199 [sender.py:send_request_defer():217] handle sender defer: 4
+2023-03-26 16:05:53,411 INFO    SenderThread:74199 [sender.py:send_request_defer():253] send defer: 5
+2023-03-26 16:05:53,412 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: defer
+2023-03-26 16:05:53,413 INFO    HandlerThread:74199 [handler.py:handle_request_defer():115] handle defer: 5
+2023-03-26 16:05:53,417 DEBUG   SenderThread:74199 [sender.py:send():122] send: request
+2023-03-26 16:05:53,417 DEBUG   SenderThread:74199 [sender.py:send_request():131] send_request: defer
+2023-03-26 16:05:53,417 INFO    SenderThread:74199 [sender.py:send_request_defer():217] handle sender defer: 5
+2023-03-26 16:05:53,418 INFO    SenderThread:74199 [sender.py:send_request_defer():253] send defer: 6
+2023-03-26 16:05:53,418 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: defer
+2023-03-26 16:05:53,418 INFO    HandlerThread:74199 [handler.py:handle_request_defer():115] handle defer: 6
+2023-03-26 16:05:53,419 DEBUG   SenderThread:74199 [sender.py:send():122] send: request
+2023-03-26 16:05:53,419 DEBUG   SenderThread:74199 [sender.py:send_request():131] send_request: defer
+2023-03-26 16:05:53,419 INFO    SenderThread:74199 [sender.py:send_request_defer():217] handle sender defer: 6
+2023-03-26 16:05:53,675 INFO    SenderThread:74199 [sender.py:send_request_defer():253] send defer: 7
+2023-03-26 16:05:53,676 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: defer
+2023-03-26 16:05:53,676 INFO    HandlerThread:74199 [handler.py:handle_request_defer():115] handle defer: 7
+2023-03-26 16:05:53,676 DEBUG   SenderThread:74199 [sender.py:send():122] send: request
+2023-03-26 16:05:53,676 DEBUG   SenderThread:74199 [sender.py:send_request():131] send_request: defer
+2023-03-26 16:05:53,677 INFO    SenderThread:74199 [sender.py:send_request_defer():217] handle sender defer: 7
+2023-03-26 16:05:53,677 INFO    SenderThread:74199 [sender.py:send_request_defer():253] send defer: 8
+2023-03-26 16:05:53,677 DEBUG   SenderThread:74199 [sender.py:send():122] send: final
+2023-03-26 16:05:53,678 DEBUG   SenderThread:74199 [sender.py:send():122] send: footer
+2023-03-26 16:05:53,678 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: defer
+2023-03-26 16:05:53,679 INFO    HandlerThread:74199 [handler.py:handle_request_defer():115] handle defer: 8
+2023-03-26 16:05:53,679 DEBUG   SenderThread:74199 [sender.py:send():122] send: request
+2023-03-26 16:05:53,679 DEBUG   SenderThread:74199 [sender.py:send_request():131] send_request: defer
+2023-03-26 16:05:53,679 INFO    SenderThread:74199 [sender.py:send_request_defer():217] handle sender defer: 8
+2023-03-26 16:05:54,694 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: poll_exit
+2023-03-26 16:05:54,695 DEBUG   SenderThread:74199 [sender.py:send():122] send: request
+2023-03-26 16:05:54,695 DEBUG   SenderThread:74199 [sender.py:send_request():131] send_request: poll_exit
+2023-03-26 16:05:54,697 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: get_summary
+2023-03-26 16:05:54,699 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: sampled_history
+2023-03-26 16:05:54,700 DEBUG   HandlerThread:74199 [handler.py:handle_request():101] handle_request: shutdown
+2023-03-26 16:05:54,701 INFO    HandlerThread:74199 [handler.py:finish():535] shutting down handler
+2023-03-26 16:05:55,683 INFO    WriterThread:74199 [datastore.py:close():258] close: /Users/financialanalyst/MLops/genre_classification/download/wandb/run-20230326_160549-lsg5cf0n/run-lsg5cf0n.wandb
+2023-03-26 16:05:55,699 INFO    SenderThread:74199 [sender.py:finish():833] shutting down sender
+2023-03-26 16:05:55,701 INFO    MainThread:74199 [internal.py:handle_exit():78] Internal process exited

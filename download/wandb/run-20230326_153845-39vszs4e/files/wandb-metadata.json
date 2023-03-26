@@ -1,0 +1,31 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-03-26T14:38:46.116964",
+    "startedAt": "2023-03-26T14:38:45.092182",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+        "--artifact_name",
+        "raw_data.parquet",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Data as downloaded"
+    ],
+    "state": "running",
+    "program": "download_data.py",
+    "codePath": "download/download_data.py",
+    "git": {
+        "remote": "https://github.com/JayQuantRise20/genre_classification.git",
+        "commit": "aed1ddb9c3d5f1dc090ec1cdd581e41cc190a246"
+    },
+    "email": "<jgolizadeh@gmail.com>",
+    "root": "/Users/financialanalyst/MLops/genre_classification",
+    "host": "JMP.local",
+    "username": "financialanalyst",
+    "executable": "/opt/anaconda3/envs/mlflow-86edd1000ba8e16e3f8ce96a12de0be37687a447/bin/python"
+}

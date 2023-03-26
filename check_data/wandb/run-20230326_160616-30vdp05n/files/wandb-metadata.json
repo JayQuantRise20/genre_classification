@@ -1,0 +1,31 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-03-26T15:06:17.523954",
+    "startedAt": "2023-03-26T15:06:16.340259",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/JayQuantRise20/genre_classification.git",
+        "commit": "aed1ddb9c3d5f1dc090ec1cdd581e41cc190a246"
+    },
+    "email": "<jgolizadeh@gmail.com>",
+    "root": "/Users/financialanalyst/MLops/genre_classification",
+    "host": "JMP.local",
+    "username": "financialanalyst",
+    "executable": "/opt/anaconda3/envs/mlflow-65a3153c55bb5fbe06f84de19b7735201855d3ab/bin/python"
+}

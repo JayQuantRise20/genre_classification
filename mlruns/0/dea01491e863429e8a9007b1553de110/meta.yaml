@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/financialanalyst/MLops/genre_classification/mlruns/0/dea01491e863429e8a9007b1553de110/artifacts
+end_time: 1679841531677
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: dea01491e863429e8a9007b1553de110
+run_uuid: dea01491e863429e8a9007b1553de110
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679841521225
+status: 3
+tags: []
+user_id: financialanalyst

@@ -1,0 +1,10 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.8.16, pytest-6.2.2, py-1.11.0, pluggy-0.13.1 -- /opt/anaconda3/envs/mlflow-65a3153c55bb5fbe06f84de19b7735201855d3ab/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/financialanalyst/MLops/genre_classification/check_data
+collecting ... collected 4 items
+
+test_data.py::test_column_presence_and_type PASSED
+test_data.py::test_class_names PASSED
+test_data.py::test_column_ranges PASSED
+test_data.py::test_kolmogorov_smirnov PASSED

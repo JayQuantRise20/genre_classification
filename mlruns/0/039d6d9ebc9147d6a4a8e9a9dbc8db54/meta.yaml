@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/financialanalyst/MLops/genre_classification/mlruns/0/039d6d9ebc9147d6a4a8e9a9dbc8db54/artifacts
+end_time: 1679845435870
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 039d6d9ebc9147d6a4a8e9a9dbc8db54
+run_name: bald-kite-785
+run_uuid: 039d6d9ebc9147d6a4a8e9a9dbc8db54
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679843872564
+status: 3
+tags: []
+user_id: financialanalyst

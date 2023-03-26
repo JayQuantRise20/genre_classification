@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/financialanalyst/MLops/genre_classification/mlruns/0/30623c160d474be6bcbc7fecbaba4cca/artifacts
+end_time: 1679840301612
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 30623c160d474be6bcbc7fecbaba4cca
+run_name: caring-shad-103
+run_uuid: 30623c160d474be6bcbc7fecbaba4cca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679840154122
+status: 4
+tags: []
+user_id: financialanalyst

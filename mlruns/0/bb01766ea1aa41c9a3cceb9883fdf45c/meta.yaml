@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/financialanalyst/MLops/genre_classification/mlruns/0/bb01766ea1aa41c9a3cceb9883fdf45c/artifacts
+end_time: 1679839123217
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bb01766ea1aa41c9a3cceb9883fdf45c
+run_name: bright-deer-881
+run_uuid: bb01766ea1aa41c9a3cceb9883fdf45c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679839102699
+status: 4
+tags: []
+user_id: financialanalyst

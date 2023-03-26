@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/financialanalyst/MLops/genre_classification/mlruns/0/ce679821ba174babbca294364fb674a1/artifacts
+end_time: 1679842155220
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: ce679821ba174babbca294364fb674a1
+run_uuid: ce679821ba174babbca294364fb674a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679841950557
+status: 4
+tags: []
+user_id: financialanalyst
